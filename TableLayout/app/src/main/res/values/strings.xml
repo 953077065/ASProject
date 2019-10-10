@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="jike">计科</string>
+    <string name="changjing2">场景2</string>
+    <string name="changjing3">场景3</string>
+    <string name="changjing4">场景4</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="go">go!</string>
+</resources>

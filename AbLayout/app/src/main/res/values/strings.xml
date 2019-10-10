@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AbLayout</string>
+    <string name="zhong">中</string>
+    <string name="nan">南</string>
+    <string name="xi">西</string>
+    <string name="bei">北</string>
+    <string name="dong">东</string>
+</resources>

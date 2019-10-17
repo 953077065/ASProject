@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
         pwd = (EditText) findViewById(R.id.pwd);
         login = (Button) findViewById(R.id.login);
         tips = (TextView) findViewById(R.id.tips);
-        final String name1=name.toString();
-        final String pwd1=pwd.toString();
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String name1=name.getText().toString();
+                String pwd1=pwd.getText().toString();
                 if (!"admin".equals(name1)){
                     tips.setText("用户名不存在");
                     tips.setVisibility(View.VISIBLE);
